@@ -5,6 +5,7 @@ Langkah 2: Berikan Izin Eksekusi
 Sebelum Anda dapat menjalankan script, pastikan file script memiliki izin eksekusi. Anda bisa memberikan izin eksekusi dengan menggunakan perintah chmod di terminal:
 
 chmod +x check_special_characters.sh
+
 Langkah 3: Jalankan Script
 Setelah memberikan izin eksekusi, Anda dapat menjalankan script dengan memberikan path ke file log yang ingin diperiksa sebagai argumen dari script. Misalnya, jika file log Anda bernama mylogfile.log dan berada di direktori saat ini, Anda bisa menjalankan script sebagai berikut:
 
@@ -12,18 +13,16 @@ Setelah memberikan izin eksekusi, Anda dapat menjalankan script dengan memberika
 Jika file log berada di direktori lain, berikan path lengkapnya:
 
 ./check_special_characters.sh /path/to/mylogfile.log
+
 Contoh Penggunaan Lengkap
 Misalkan kita memiliki file log example.log yang ingin diperiksa untuk spesial karakter. Berikut adalah contoh penggunaannya:
 
-Buatlah script check_special_characters.sh dengan konten seperti yang telah kita diskusikan sebelumnya.
-
-Simpan script tersebut dan berikan izin eksekusi:
-
+1. Buatlah script check_special_characters.sh dengan konten seperti yang telah kita diskusikan sebelumnya.
+2. Simpan script tersebut dan berikan izin eksekusi: 
 chmod +x check_special_characters.sh
-Jalankan script dengan memberikan path ke file log example.log:
-
+3. Jalankan script dengan memberikan path ke file log example.log: 
 ./check_special_characters.sh example.log
-Script akan menjalankan proses pencarian spesial karakter di dalam file log tersebut dan memberikan hasilnya.
+4. Script akan menjalankan proses pencarian spesial karakter di dalam file log tersebut dan memberikan hasilnya.
 
 Catatan Penting:
 Pastikan Anda berada di direktori yang tepat di mana script check_special_characters.sh disimpan atau berikan path lengkap saat menjalankannya.
